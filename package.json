@@ -1,8 +1,19 @@
 {
-  "name": "storybook-demo",
-  "private": true,
-  "version": "0.0.0",
+  "name": "delicate-storybook",
+  "private": false,
+  "version": "0.0.1",
+  "description": "基于react的组件库",
+  "author": "zjj",
+  "license": "ISC",
   "type": "module",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "dist/src/index.d.ts",
+  "files": [
+    "dist",
+    "es",
+    "lib"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -22,7 +33,6 @@
     "url": "https://github.com/Delicate-ops/Delicate-components.git"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.6",
     "@storybook/addon-actions": "^6.5.13",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/addon-interactions": "^6.5.12",
