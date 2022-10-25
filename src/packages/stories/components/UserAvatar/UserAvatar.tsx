@@ -1,7 +1,7 @@
 import { Avatar, AvatarProps, Tooltip } from 'antd'
 import React, { useMemo } from 'react'
 import randomColor from 'randomcolor'
-type UserAvatarProps = AvatarProps & {
+export type UserAvatarProps = AvatarProps & {
   user:
     | {
         realName?: string

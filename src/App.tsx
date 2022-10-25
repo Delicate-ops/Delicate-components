@@ -1,7 +1,5 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import { Button } from './stories/components/Button/Button'
-import UserAvatar from './stories/components/UserAvatar/UserAvatar'
 import './App.css'
 import 'antd/dist/antd.css'
 function App() {
@@ -29,7 +27,6 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <UserAvatar user={{}} />
     </div>
   )
 }
